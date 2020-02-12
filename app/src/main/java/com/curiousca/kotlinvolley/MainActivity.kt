@@ -17,6 +17,7 @@ import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
 
+    private val TAG:String = "MainActivity"
     private var volleyRequest: RequestQueue? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
