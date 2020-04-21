@@ -26,9 +26,9 @@ class MainActivity : AppCompatActivity() {
 
         volleyRequest = Volley.newRequestQueue(this)
 
-        parseBigJsonObj(urlQuake)
+        //parseBigJsonObj(urlQuake)
         //parseJsonObject(url)
-        //parseJsonArray(url2)
+        parseJsonArray(url2)
         //getString(url)
     }
 
